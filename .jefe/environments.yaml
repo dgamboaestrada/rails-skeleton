@@ -1,0 +1,24 @@
+---
+staging:
+  user: user
+  group: group
+  host: example.com
+  port: 22
+  public_dir: "path/to/public/"
+  dbname: name
+  dbuser: user
+  dbpassword: password
+  dbhost: localhost
+  exclude: "*.swp;*.gitignore"
+
+production:
+  user: user
+  group: group
+  host: example.com
+  port: 22
+  public_dir: "path/to/public/"
+  dbname: name
+  dbuser: user
+  dbpassword: password
+  dbhost: localhost
+  exclude: "*.swp;*.gitignore"
