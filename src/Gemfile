@@ -62,9 +62,9 @@ gem 'cancancan', '~> 2.0'
 # Role based authorization with CanCanCan for Active Admin. https://github.com/yhirano55/active_admin_role
 gem 'active_admin_role'
 # Airbrake error monitoring software. Read more: https://github.com/airbrake/airbrake
-gem 'airbrake', '~> 5.0'
+#gem 'airbrake', '~> 5.0'
 # User for sending push notifications
-gem 'rails-push-notifications', '~> 0.2.0'
+#gem 'rails-push-notifications', '~> 0.2.0'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

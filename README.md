@@ -38,7 +38,7 @@ RDBMS                   | [PostgreSQL 9.6](https://www.postgresql.org)
 - rack-Cross **Cross domain. See https://github.com/cyu/rack-cors**
 #### Develpment
 - haml-lint **is a tool to help keep your HAML files clean and readable. In addition to HAML-specific style and lint checks, it integrates with RuboCop to bring its powerful static analysis tools to your HAML documents. https://github.com/brigade/haml-lint**
-- rspec-rails **rspec-rails is a testing framework for Rails 3.x, 4.x and 5.0. https://github.com/rspec/rspec-rails**
+- rspec-rails **rspec-rails is a testing framework for Rails 3.x, 4.x and 5.x. https://github.com/rspec/rspec-rails**
 - factory_bot **A library for setting up Ruby objects as test data. https://github.com/thoughtbot/factory_bot
 - rubocop **RuboCop is a Ruby static code analyzer. https://github.com/bbatsov/rubocop**
 - json_matchers **Validate your JSON APIs. Read more: https://github.com/thoughtbot/json_matchers**
