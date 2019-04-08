@@ -5,7 +5,7 @@ Ruby On Rails base proyect
 Item                    | Value
 ----------------------- | -------------
 Language                | [Ruby 2.3.3](https://www.ruby-lang.org/en/)
-Framework               | [Ruby on Rails 5.2.2](http://rubyonrails.org)
+Framework               | [Ruby on Rails 5.2.2.1](http://rubyonrails.org)
 RDBMS                   | [PostgreSQL 9.6](https://www.postgresql.org)
 
 # Requirements
@@ -39,7 +39,7 @@ RDBMS                   | [PostgreSQL 9.6](https://www.postgresql.org)
 #### Develpment
 - haml-lint **is a tool to help keep your HAML files clean and readable. In addition to HAML-specific style and lint checks, it integrates with RuboCop to bring its powerful static analysis tools to your HAML documents. https://github.com/brigade/haml-lint**
 - rspec-rails **rspec-rails is a testing framework for Rails 3.x, 4.x and 5.0. https://github.com/rspec/rspec-rails**
-- factory_girl_rails **factory_girl is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance. https://github.com/dscape/factory_girl_rails**
+- factory_bot **A library for setting up Ruby objects as test data. https://github.com/thoughtbot/factory_bot
 - rubocop **RuboCop is a Ruby static code analyzer. https://github.com/bbatsov/rubocop**
 - json_matchers **Validate your JSON APIs. Read more: https://github.com/thoughtbot/json_matchers**
 ### Documentation

@@ -82,8 +82,8 @@ group :development, :test do
   gem 'haml-lint', require: false
   # rspec-rails is a testing framework for Rails 3.x, 4.x and 5.0. https://github.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 3.5'
-  # factory_girl is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance. https://github.com/dscape/factory_girl_rails
-  gem 'factory_girl_rails'
+  # A library for setting up Ruby objects as test data. https://github.com/thoughtbot/factory_bot
+  gem 'factory_bot'
   # RuboCop is a Ruby static code analyzer. https://github.com/bbatsov/rubocop
   gem 'rubocop', '~> 0.48.1', require: false
   # Validate your JSON APIs. Read more: https://github.com/thoughtbot/json_matchers
