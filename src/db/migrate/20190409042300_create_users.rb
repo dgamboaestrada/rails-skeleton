@@ -9,7 +9,6 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.datetime :activated_at
       t.string :reset_digest
       t.datetime :reset_sent_at
-      t.string :locale
       t.belongs_to :role, index: true
 
       t.timestamps
