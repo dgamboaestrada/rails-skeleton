@@ -1,8 +1,13 @@
 class ApplicationController < ActionController::Base
   before_action :apijson_pagination, if: :json_request? # action to jwt authorization
+  before_action :set_locale # Setting the Locale from param
   skip_before_action :verify_authenticity_token, if: :json_request? # Skip csrf to api
 
   private
+
+  def set_locale
+    I18n.locale = params[:locale] || I18n.default_locale
+  end
 
   def json_request?
     request.format.json?
