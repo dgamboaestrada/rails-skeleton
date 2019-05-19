@@ -83,7 +83,7 @@ group :development, :test do
   # rspec-rails is a testing framework for Rails 3.x, 4.x and 5.0. https://github.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 3.5'
   # A library for setting up Ruby objects as test data. https://github.com/thoughtbot/factory_bot
-  gem 'factory_bot'
+  gem 'factory_bot_rails'
   # RuboCop is a Ruby static code analyzer. https://github.com/bbatsov/rubocop
   gem 'rubocop', '~> 0.48.1', require: false
   # Validate your JSON APIs. Read more: https://github.com/thoughtbot/json_matchers
@@ -105,6 +105,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  gem 'faker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
